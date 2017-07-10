@@ -232,6 +232,7 @@ We can set up logging to remove these warning messages and get a better idea of 
 Add the following to the gradle dependencies:
     
 ```
+    compile "org.slf4j:jul-to-slf4j:1.7.12"
     compile "ch.qos.logback:logback-classic:1.2.1"
 ```
     
